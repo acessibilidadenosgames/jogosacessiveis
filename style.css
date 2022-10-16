@@ -1,0 +1,130 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #181619;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p, h1, label, fieldset{
+    color: #f1f1f1
+}
+hr{
+    height: 3px;
+    width: 90%;
+}
+p{
+    text-align: center;
+}
+strong{
+    font-size: 180%;
+    line-height: 50px;
+}
+div{
+    background-color: #2c292e;
+}
+a{
+    color: #f1f1f1;
+    text-shadow: -0.5px 0px #d8334a;
+    text-decoration-color: #d8334a;
+}
+.top_menu{
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+.top_texto{
+    text-align: justify;
+}
+#instagram{
+    margin-left: 10px;
+}
+.explicacao_opts{
+    background-color: #181619;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.opt_explica{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    min-height: 560px;
+    height: fit-content;
+    width: 470px;
+    border-radius: 10px;
+}
+.botao_trocar_imagem{
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 0px;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+    height: 20px;
+    border-color: #d8334a;
+}
+.botao_trocar_imagem:hover{
+    background-color: #d8334a;
+    color: #f1f1f1;
+    border-color: #ffffff;
+}
+.contexto{
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ferramenta {
+    background-color: #ffffff00;
+    margin: 10px;
+    padding: 10px;
+    min-width: 60%;
+    width: fit-content;
+}
+.seletor_opts, .resultados_caixa{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.botao_filtrar{
+    width: 40%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    transition-duration: 0.3s;
+    border-radius: 8px;
+}
+.botao_filtrar:hover{
+    background-color: #d8334a;
+    color: #f1f1f1;
+    border-color: #ffffff;
+}
+input[type="checkbox"]:checked{
+    accent-color: #d8334a;
+}
+.rodape{
+    width: 100%;
+    background-color: #2c292e;
+    color: #f1f1f1;
+    padding: 1%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.rodape{
+    position: relative;
+    width: fit-content;
+    background-color: #f1f1f1;
+    color: #181619;
+    text-align: center;
+}

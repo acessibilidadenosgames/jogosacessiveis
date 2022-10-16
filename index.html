@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade nos Games</title>
+    <link rel="icon" type="image/x-icon" href="./arquivos/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contexto">
+        <div class="top_menu">
+            <p class="top_texto">
+                <strong>CONTEXTUALIZAÇÃO</strong><br>
+                Essa ferramenta foi criada para um projeto do <a href="https://ckennedy.com.br/">Colégio Presidente Kennedy</a> (uma escola localizada em Santos, SP) com o tema "acessibilidade nos jogos". O objetivo dela é ajudar pessoas com deficiência a procurarem jogos eletrônicos que elas consigam jogar através de um filtro. Pesquisamos os menus de quarenta jogos por opções de acessibilidade e organizamos esses dados em uma planilha. Essas opções são mecanismos que modificam o game para que um jogador com deficiência, seja ela visual, auditiva, motora ou cognitiva, tenha uma experiência mais confortável.<br>
+                <strong>QUAIS SÃO AS OPÇÕES?</strong><br>
+                Abaixo, há explicações sobre todos os mecanismos de acessibilidade pesquisados. Eles incluem: legendas, remapeamento de botões, modo assistência, opções para daltonismo, desligar vibração, facilitar comandos e segurar ou pressionar botões.<br>
+                <strong>COMO FUNCIONA?</strong><br>
+                Para usar a ferramenta, desça até o final da página, selecione as opções que você deseja e clique no botão "FILTRAR". Então, uma lista com os jogos que possuem as opções selecionadas irá aparecer.<br>
+                <strong>INSTAGRAM</strong><img id="instagram" src="./arquivos/instagram-logo.png" height="20px" width="20px"><br>
+                <a href="https://instagram.com/projeto.games.acessibilidade?igshid=YmMyMTA2M2Y=">Confira nossa conta do Instagram para mais detalhes do projeto clicando aqui.</a>
+            </p>
+        </div>
+        <hr>
+        <div class="explicacao_opts">
+            <div class="opt_explica">
+                <h1>LEGENDAS</h1>
+                <img id="LEGENDAS" value="off" alt="Imagem representativa da opção LEGENDAS" src="./arquivos/legendas_off.png">
+                <button onclick="trocar_imagem('LEGENDAS')" class="botao_trocar_imagem"></button>
+                <p>O jogo possui legendas que permitem jogadores com deficiências auditivas entenderem diálogos ou outros sons do ambiente.</p>
+            </div>
+
+            <div class="opt_explica">
+                <h1>REMAPEAMENTO DE BOTÕES</h1>
+                <img id="BUTTONREMAP" value="off" src="./arquivos/buttomremap_off.png" alt="Imagem representativa da opção LEGENDAS">
+                <button onclick="trocar_imagem('BUTTONREMAP')" class="botao_trocar_imagem"></button>
+                <p>O jogo permite jogadores alterarem as ações relacionadas a cada botão, permitindo que jogadores se sintam mais confortáveis com o controle.</p>
+            </div>
+
+            <div class="opt_explica">
+                <h1>MODO ASSISTÊNCIA</h1>
+                <img id="ASSISTMODE" value="off" src="./arquivos/modoassist_off.png" alt="Imagem representativa da opção LEGENDAS">
+                <button onclick="trocar_imagem('ASSISTMODE')" class="botao_trocar_imagem"></button>
+                <p>O jogo possui qualquer tipo de opção que reduza a dificuldade ou a complexidade de alguns sistemas dele. (Exemplo: reduzir o número de inimigos.)</p>
+            </div>
+
+            <div class="opt_explica">
+                <h1>OPÇÕES PARA DALTONISMO</h1>
+                <img id="DALTONISMO" value="off" src="./arquivos/daltonismo_off.png" alt="Imagem representativa da opção LEGENDAS">
+                <button onclick="trocar_imagem('DALTONISMO')" class="botao_trocar_imagem"></button>
+                <p>O jogo possui qualquer tipo de opção que ajude jogadores com daltonismo. (Exemplo: personalizar a cor dos objetivos.)</p>
+            </div>
+
+            <div class="opt_explica">
+                <h1>DESLIGAR VIBRAÇÃO</h1>
+                <img id="VIBRACAO" value="off" src="./arquivos/vibra_off.png" alt="Imagem representativa da opção LEGENDAS">
+                <button onclick="trocar_imagem('VIBRACAO')" class="botao_trocar_imagem"></button>
+                <p>O jogo permite desligar a vibração do controle, ajudando jogadores com deficiências motoras que são atrapalhados pelo movimento.</p>
+            </div>
+
+            <div class="opt_explica">
+                <h1>FACILITAR COMANDOS</h1>
+                <img id="FACILITARCOMANDS" value="off" src="./arquivos/facilitarcomands_off.png" alt="Imagem representativa da opção LEGENDAS">
+                <button onclick="trocar_imagem('FACILITARCOMANDS')" class="botao_trocar_imagem"></button>
+                <p>O jogo possui qualquer tipo de opção que reduza a complexidade dos comandos. (Exemplo: assistência de mira.)</p>
+            </div>
+
+            <div class="opt_explica">
+                <h1>SEGURAR OU PRESSIONAR</h1>
+                <img id="SOP" value="off" src="./arquivos/sop_off.png" alt="Imagem representativa da opção LEGENDAS">
+                <button onclick="trocar_imagem('SOP')" class="botao_trocar_imagem"></button>
+                <p>O jogo possui opções para que o jogador não precise segurar o botão para determinadas ações, mas apenas aperte o botão uma vez, ajudando jogadores com deficiências nas mãos.</p>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="ferramenta">
+        <div class="seletor_opts">
+            <fieldset><legend>OPÇÕES PARA PESQUISAR:</legend>
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Legendas">
+                        Legendas
+                    </label>
+                </div>
+                
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Remapeamento de Botões">
+                        Remapeamento de Botões
+                    </label>
+                </div>
+                
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Modo Assistência">
+                        Modo Assistência
+                    </label>
+                </div>
+                
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Filtro de Daltonismo">
+                        Opções para Daltonismo
+                    </label>
+                </div>
+
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Desligar Vibração">
+                        Desligar Vibração
+                    </label>
+                </div>
+
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Facilitar Comandos">
+                        Facilitar Comandos
+                    </label>
+                </div>
+
+                <div class="divbutton">
+                    <label>
+                        <input class="checkbutton" type="checkbox" value="Segurar ou Pressionar">
+                        Segurar ou Pressionar Botões
+                    </label>
+                    <br>
+                <button class="botao_filtrar" onclick="botao_filtrar_click()">
+                    FILTRAR
+                </button>
+            </fieldset>
+        </div>
+    
+        <div class="resultados_caixa">
+            <fieldset>
+                <legend>RESULTADOS DA PESQUISA:</legend>
+                <ul id="lista_resultados">
+                    <li>Selecione as opções que deseja e clique em "FILTRAR"</li>
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+
+    <div class="rodape">Site criado por Eduardo Juns Jovelli</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
