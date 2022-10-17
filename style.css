@@ -30,11 +30,17 @@ a{
     text-shadow: -0.5px 0px #d8334a;
     text-decoration-color: #d8334a;
 }
+a:hover{
+    color: #d8334a;
+    background-color: #f1f1f1;
+}
 .top_menu{
     width: 85%;
     margin: 10px;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 1px;
+    padding-bottom: 10px;
     border-radius: 10px;
 }
 .top_texto{
