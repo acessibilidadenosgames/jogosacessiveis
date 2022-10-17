@@ -29,6 +29,7 @@ a{
     color: #f1f1f1;
     text-shadow: -0.5px 0px #d8334a;
     text-decoration-color: #d8334a;
+    transition-duration: 0.2s;
 }
 a:hover{
     color: #d8334a;
