@@ -24,7 +24,7 @@ var jogos =[
 ['Spider-Man (PS4)', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
 ['Celeste', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
 ["Assassin's Creed: Odyssey", 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos'],
-['Shadow of the Tom Raider', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Shadow of the Tomb Raider', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
 ['Battlefield V', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
 ['Far Cry 5', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
 ['Control', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
