@@ -22,7 +22,7 @@ strong{
     font-size: 180%;
     line-height: 50px;
 }
-h1{
+.h1_titulo{
     font-size: 230%;
     color: #f1f1f1;
 }
@@ -74,8 +74,8 @@ a:hover{
     padding-right: 10px;
     padding-left: 10px;
     margin: 10px;
-    min-height: 560px;
-    height: fit-content;
+    min-height: fit-content;
+    height: 670px;
     width: 470px;
     border-radius: 10px;
 }
