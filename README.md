@@ -11,13 +11,61 @@ Essa ferramenta foi criada para um projeto do Colégio Presidente Kennedy (uma e
 - `Filtro` - Um filtro com sete opções que podem ser selecionadas. Quando o usuário clica no botão "FILTRAR", são exibidos os jogos que tem os critérios selecionados.
 ## Código do filtro
 <details>
-  <summary>Exibir</summary>
-	
+  <summary>Exibir variável "jogos"</summary>
+
 ```javascript
 var jogos =[
-['TÍTULO', 'OPÇÃO', 'OPÇÃO', ...],
-...
+['Half-Life 2', 'Remapeamento de Botões', 'Legendas', 'Desligar Vibração', 'Modo Assistência'],
+['GTA: San Andreas', 'Remapeamento de Botões', 'Legendas'],
+['GTA IV', 'Remapeamento de Botões', 'Legendas', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Portal 2', 'Remapeamento de Botões', 'Legendas', 'Desligar Vibração'],
+['Crysis 2', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Minecraft', 'Remapeamento de Botões', 'Legendas', 'Desligar Vibração', 'Modo Assistência', 'Filtro de Daltonismo', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['BioShock: Infinite', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração'],
+['GTA V', 'Remapeamento de Botões', 'Legendas', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Crysis 3', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Wolfesntein: The New Order', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Segurar ou Pressionar'],
+['Alien Isolation', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos'],
+['Metro: 2033 Redux', 'Remapeamento de Botões', 'Legendas', 'Segurar ou Pressionar'],
+['Metro: Last Light Redux', 'Remapeamento de Botões', 'Legendas', 'Segurar ou Pressionar'],
+['Watch Dogs 2', 'Legendas', 'Modo Assistência', 'Desligar Vibração'],
+['Far Cry: Primal', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Zelda: BOTW', 'Legendas'],
+['Mario Odyssey', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos'],
+['ARK: Survival Evolved', 'Remapeamento de Botões', 'Modo Assistência'],
+['PREY', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração'],
+['Fortnite (Battle Royale)', 'Remapeamento de Botões', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Horizon Zero Dawn', 'Legendas', 'Modo Assistência', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Spider-Man (PS4)', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Celeste', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+["Assassin's Creed: Odyssey", 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos'],
+['Shadow of the Tomb Raider', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Battlefield V', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Far Cry 5', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Control', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Apex Legends', 'Remapeamento de Botões', 'Legendas', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+["Assassin's Creed: Valhalla", 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Risk of Rain 2', 'Remapeamento de Botões', 'Modo Assistência', 'Desligar Vibração'],
+['Ghost of Tsushima', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Black Mesa', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Doom Eternal', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Super Mario 3D All-Stars', 'Desligar Vibração'],
+['Hitman 3', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Segurar ou Pressionar'],
+['Subnautica: Below Zero', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Desligar Vibração', 'Segurar ou Pressionar'],
+['Deathloop', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos', 'Segurar ou Pressionar'],
+['Forza Horizon 5', 'Remapeamento de Botões', 'Legendas', 'Modo Assistência', 'Filtro de Daltonismo', 'Desligar Vibração', 'Facilitar Comandos'],
+['Elden Ring', 'Remapeamento de Botões', 'Legendas', 'Desligar Vibração']
 ]
+```
+</details>
+<details>
+  <summary>Exibir função do filtro</summary>
+	
+```javascript
+// var jogos =[
+// ['TÍTULO', 'OPÇÃO', 'OPÇÃO', ...],
+// ...
+// ]
 function botao_filtrar_click(){
   // PEGAR AS OPÇÕES SELECIONADAS
   let todos_botoes = document.querySelectorAll(".checkbutton")
