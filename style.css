@@ -20,7 +20,7 @@ p{
 }
 strong{
     font-size: 180%;
-    line-height: 50px;
+    line-height: 70px;
 }
 .h1_titulo{
     font-size: 230%;
@@ -55,6 +55,7 @@ a:hover{
 }
 .top_texto{
     text-align: justify;
+    font-size: 120%;
 }
 #instagram{
     margin-left: 10px;
@@ -88,6 +89,8 @@ a:hover{
     border-radius: 8px;
     height: 20px;
     border-color: #d8334a;
+    color: #d8334a;
+    font-size: 120%;
 }
 .botao_trocar_imagem:hover{
     background-color: #d8334a;
